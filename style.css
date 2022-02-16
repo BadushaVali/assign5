@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+div{
+    margin-left: 150px;
+}
+.left{
+    background-image: url("base-apparel-assets/images/bg-pattern-desktop.svg");
+    background-repeat: none;
+    background-size: cover;
+    width: 60%;
+    float: left;
+    padding: 75px;
+}
+.right{
+    background-image: url("base-apparel-assets/images/hero-desktop.jpg");
+    background-repeat: none;
+    background-size: cover;
+    width: 40%;
+    float: right;
+}
+.left ,.right{
+    height: 100vh;   
+}
+.logo{
+    margin-bottom: 100px;
+}
+h1{
+    font-size: 75px;
+    font-weight:400;
+    letter-spacing: 15px;
+    margin-bottom: 15px;
+}
+ span{
+    font-weight: 200;
+    color: rgb(240, 152, 150);
+}
+p{
+    line-height: 25px;
+    color: rgb(240, 152, 150);
+    margin-bottom: 40px;
+}
+input{
+    border-radius: 25px;
+    width: 400px;
+    height: 50px;
+    border: 1px solid rgb(240, 152, 150);
+    font-size: 16px;
+    padding: 20px;
+    color: rgb(240, 152, 150);
+    
+
+}
+button{
+    background-color: rgb(240, 152, 150);
+    border-radius: 25px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    vertical-align: -2px;
+    margin-left: -75px;
+    box-shadow: -8px 8px 115px 4px rgba(186,141,141,0.76);
+-webkit-box-shadow: -8px 8px 115px 4px rgba(186,141,141,0.76);
+-moz-box-shadow: -8px 8px 115px 4px rgba(186,141,141,0.76);
+    
+}
